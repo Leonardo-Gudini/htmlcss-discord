@@ -17,6 +17,7 @@ header{
 /* stile header top */
 .header-top{
     padding: 15px 0px;
+    height: 100px;
 }
 
 .container-header-top{
@@ -90,7 +91,7 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("img/");
+    background-image: url("../img/jumbo.png");
     height: 500px;
     background-position: center;
     background-size: cover;
@@ -99,6 +100,30 @@ li a{
 .container-header-bottom{
     width: 50%;
     height: 400px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.container-header-bottom h1{
+    font-size: 50px;
+}
+
+.container-header-bottom p{
+    margin-top: 20px;
+    line-height: 35px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* stile button header bottom*/
+.container-header-bottom .button{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.open-discord-btn{
+    background-color: #23272A;
+    color: white;
 }
 
 /* stile sezione main*/
