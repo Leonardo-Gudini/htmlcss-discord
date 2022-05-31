@@ -98,7 +98,6 @@ li a{
 }
 
 .container-header-bottom{
-    width: 50%;
     height: 400px;
     text-align: center;
     padding-top: 60px;
@@ -159,20 +158,57 @@ delle sezione nel main*/
 }
 .txt{
     width: 40%;
+    padding: 25px;
+}
+
+.txt h2, .last-section h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.txt p, .last-section p{
+    line-height: 25px;
+}
+
+.section-img{
+    width: 100%;
 }
 
 .last-section{
-    height: 1000px;
+    min-height: 1000px;
+}
+
+.container-green{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-section h3{
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 30px 40px;
+    background-image: url("../img/stars.svg");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn-last-section{
+    font-size: 20px;
+    margin: 20px 0px 150px 0px;
+    background-color: #7288DA;
+    color: white;
 }
 
 /* stile footer*/
 footer{
-    height: 800px;
+    height: 650px;
+    background-color: #23272A;
 }
 
 .footer-top{
-    height: 700px;
+    height: 550px;
     display: flex;
 }
 
