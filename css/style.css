@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header{
     height: 600px;
+    color: white;
+    background-color: #255EE9;
 }
+
 /* stile header top */
 .header-top{
     padding: 15px 0px;
@@ -35,6 +42,20 @@ header{
     justify-content: flex-end;
 }
 
+/* stile button login*/
+.login .button{
+    color: black;
+    background-color: white;
+}
+
+/* stile generale per tutti i button*/
+.button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+
 .logo, .login, .link{
     display: flex;
     align-items: center;
@@ -44,17 +65,21 @@ header{
 
 /* stile lista link*/
 ul{
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
 ul li{
-    margin: 0px 10px;
+
+    margin: 0px 15px;
+    color: white;
 }
 
 li a{
+
+    color: white;
     text-decoration: none;
 }
 
@@ -62,10 +87,13 @@ li a{
 /* header bottom*/
 
 .header-bottom{
-    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("img/");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
 }
 
 .container-header-bottom{
@@ -160,9 +188,9 @@ footer{
     border: 3px dashed black;
 }
 
-.debug li a{
+/* .debug li a{
     color: black;
-}
+} */
 
 .debug .header-bottom{
     background-color: #00008B;
