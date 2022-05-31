@@ -21,7 +21,7 @@ header{
 }
 
 .container-header-top{
-    width: 65%;
+    width: 90%;
     height: 60px;
     margin: 0px auto;
     display: flex;
@@ -64,15 +64,15 @@ header{
     font-size: 18px;
 }
 
-/* stile lista link*/
-ul{
+/* stile lista link header*/
+.link ul{
     width: 80%;
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-ul li{
+.link ul li{
 
     margin: 0px 15px;
     color: white;
@@ -131,6 +131,10 @@ main .section-white-bg, main .section-gray-bg{
     height: 600px;
 }
 
+.section-gray-bg{
+    background-color: #D3D3D3;
+}
+
 /* centramento dei container delle sezioni*/
 .section-white-bg, .section-gray-bg, .last-section, .footer-top, .footer-bottom{
     display: flex;
@@ -176,16 +180,17 @@ delle sezione nel main*/
 
 .last-section{
     min-height: 1000px;
+    background-color: #D3D3D3;
 }
 
 .container-green{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
 
 .last-section h3{
-    font-size: 25px;
     margin-top: 50px;
     padding: 30px 40px;
     background-image: url("../img/stars.svg");
@@ -212,6 +217,32 @@ footer{
     display: flex;
 }
 
+.flag-ita{
+    width: 30px;
+}
+
+span{
+    font-size: 18px;
+    color: white;
+}
+
+.footer-top .container-section{
+    width: 80%;
+    padding: 20px;
+}
+
+.footer-top ul li{
+    list-style-type: none;
+    color: white;
+    padding: 10px 0px;
+}
+
+hr{
+    width: 90%;
+    border: 1px solid #7187DA;
+    margin: 0 auto;
+}
+
 .footer-bottom{
     height: 100px;
     display: flex;
@@ -219,17 +250,29 @@ footer{
 }
 
 .container-footer-bottom{
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.footer-top .footer-title{
+    color: #7288DA;
+    margin-bottom: 15px;
+}
+
 .section-footer-coral{
     width: 30%;
+    font-size: 30px;
 }
 
 .section-footer-blue{
     width: calc(70% / 4);
+}
+
+.registrati .button{
+    background-color: #7288DA;
+    color: white;
 }
 
 
@@ -274,17 +317,9 @@ footer{
     border: 2px dashed black;
 }
 
-.debug .section-gray-bg{
-    background-color: #D3D3D3;
-}
-
 .debug .container-green{
     background-color: #228B23;
     border: 2px dashed black;
-}
-
-.debug .last-section{
-    background-color: #D3D3D3;
 }
 
 .debug footer{
