@@ -132,7 +132,7 @@ main .section-white-bg, main .section-gray-bg{
 }
 
 .section-gray-bg{
-    background-color: #D3D3D3;
+    background-color: #F5F5F5;
 }
 
 /* centramento dei container delle sezioni*/
@@ -180,7 +180,7 @@ delle sezione nel main*/
 
 .last-section{
     min-height: 1000px;
-    background-color: #D3D3D3;
+    background-color: #F5F5F5;
 }
 
 .container-green{
@@ -264,6 +264,16 @@ hr{
 .section-footer-coral{
     width: 30%;
     font-size: 30px;
+}
+
+.social-icon{
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+}
+
+.social-icon i{
+    padding-right: 15px;
 }
 
 .section-footer-blue{
@@ -352,3 +362,4 @@ hr{
     border: 2px dashed black;
 }
 /* fine regole debug*/
+
